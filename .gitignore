@@ -1,0 +1,37 @@
+### JetBrains IDE (IntelliJ) ###
+.idea/
+*.iml
+out/
+gen/
+
+### Kotlin/JVM & Gradle ###
+.gradle/
+build/
+*/build/
+.kotlin/
+
+### 빌드 및 로컬 설정 ###
+local.properties
+.device/
+
+### OS 관련 파일 ###
+.DS_Store
+Thumbs.db
+
+### AI 도구 관련 (이미지에 보이는 폴더) ###
+.claude/
+.cursor/
+
+### 메모장 앱 실행 데이터  ###
+# 앱 내부 폴더에 저장하도록 구현했다면 아래 파일들을 제외해야 합니다.
+*.json
+*.properties
+!gradle.properties
+# 내보내기한 파일들 (PDF 등)
+*.pdf
+*.txt
+*.md
+
+### 기타 ###
+bin/
+!README.md
